@@ -1,0 +1,22 @@
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Other ###
+node_modules/
+bundle.js
+npm-debug.log
+.DS_Store
+target/
+!.mvn/wrapper/maven-wrapper.jar
+

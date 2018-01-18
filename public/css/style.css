@@ -1,0 +1,1040 @@
+html, body, div, span, applet, object, iframe,  h1, h2, h3, h4, h5, h6, p, blockquote, pre,  a, abbr, acronym, address, big, cite, code,  del, dfn, em, font, img, ins, kbd, q, s, samp,  small, strike, strong, sub, sup, tt, var,  b, u, i, center,  dl, dt, dd, ol, ul, li,  fieldset, form, label, legend,  table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+::selection {
+    color: #fff;
+    background-color: #bbbbbb; 
+}
+ul{list-style: none;}
+.text-center{
+    text-align: center !important;
+}
+.clear
+{
+    clear: both;
+}
+@media screen and (min-width: 1400px)
+{
+    .form-signin
+    {
+        display:block;
+        width:100%!important;
+    }
+    .header, .header-all
+    {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 8px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 1200px)
+{
+    .form-signin
+    {
+        display:block;
+        width:100%!important;
+    }
+    .header, .header-all
+    {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 8px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 796px)
+{
+    .form-signin
+    {
+        display:block;
+        width:100%!important;
+    }
+    .header, .header-all
+    {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 8px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 400px)
+{
+    .form-signin
+    {
+        display:block;
+        width:100%!important;
+    }
+    .header, .header-all
+    {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 8px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 300px)
+{
+    .form-signin
+    {
+        display:block;
+        width:100%!important;
+    }
+    .header, .header-all
+    {
+        width: 85%;
+        margin: 0 auto;
+        padding-top: 8px;
+        font-size: 14px;
+    }
+}
+.headerwidth
+{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index:1001;
+}
+.headerwidth-all
+{
+    width: 100%;
+    height: 70px;
+    z-index:1001;
+    /* position: fixed;
+    top: 0px;
+    background-color: #ffffff;
+    opacity: 0.6; */
+    /*background-color: none;*/
+    box-shadow: 0 0 10px #bbbbbb;
+}
+
+.navbar-custom-menu,.main-header .navbar-right{
+    float:right;
+}
+.navbar-custom-menu
+{
+    width: 20%;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover,.nav .open>a:active
+{
+    color: white;
+    /*background-color: rgba(246, 183, 7, 1);*/
+}
+.ordermenu-style,.ordermenu-styleall
+{
+    height: 53px;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+}
+.ordermenu-style>a
+{
+    height: 36px;
+    padding: 0;
+    color: white!important;
+}
+.ordermenu-style>a:hover,.ordermenu-style>a:active,.ordermenu-styleall>a:hover,.ordermenu-styleall>a:active
+{
+    color: rgba(246, 183, 7, 1)!important;
+}
+.ordermenu-styleall>a
+{
+    height: 36px;
+    padding: 0;
+    color: black!important;
+}
+.nav>li>a
+{
+    padding: 0!important;
+    height: 100%;
+}
+.navbar-nav
+{
+    margin-top: 10px;
+    width: 100%;
+}
+.dropdown-toggle:after
+{
+    content: "  ";
+}
+
+.dropdown-toggle,.dropdown-toggle:hover
+{
+    color: black;
+    border:none;
+}
+.dropdown-toggle:hover
+{
+    color:#ffffff;
+    background-color: rgba(246, 183, 7, 1);
+}
+.dropdown-menu
+{
+    min-width: 5rem!important;
+}
+.info-self
+{
+    text-align: center;
+    background-color:rgba(246, 183, 7, 1);
+}
+.info-style>a
+{
+    color: white;
+    line-height:40px;
+    font-size: 13px;
+}
+.info-style>a:hover
+{
+    color: white;
+    border-bottom: 1px solid white;
+}
+.header-position
+{
+    width:80%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: right;
+    /* padding: 10px; */
+}
+.navdivimg
+{
+    display: inline-block;
+    float: left;
+}
+.navimg
+{
+    width: 36px;
+    height: 49px;
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.logotitle
+{
+    font-size: 18px;
+    color: #ffffff;
+    position: relative;
+    top: -15px;
+}
+.logotitle-all
+{
+    font-size: 18px;
+    position: relative;
+    top: -15px;
+}
+.headerul,.headerul-all
+{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+}
+.headerul>li,.headerul-all>li
+{
+    margin-right: 50px;
+    float: left;
+}
+.headerul>li>a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+.headerul-all>li>a
+{
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.order-style,.order-style-all
+{
+    width: 40%;
+    /* height: 53px; */
+    text-align: center;
+    padding: 14px 0;
+}
+.order-style>a
+{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+}
+.order-style-all>a
+{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+.headerul>li>a:hover,.headerul>li>a:active,.headerul-all>li>a:hover,.headerul-all>li>a:active,.order-style>a:hover,.order-style>a:active,.order-style-all>a:hover,.order-style-all>a:active
+{
+    color: rgba(246, 183, 7, 1)
+}
+
+.loginlia,.registerlia
+{
+    float:right!important;
+    display: inline-block;
+    margin-right: 20px!important;
+}
+
+/*主页*/
+.headermain
+{
+    width: 100%;
+    height:1000px;
+    background-image: url('../img/bgi.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.banner-img
+{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: absolute;
+    top: 170px;
+    
+}
+.banner-img>img
+{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.banner-rotate
+{
+    width: 114px;
+    height: 98px;
+    margin: 0 auto;
+    position: absolute;
+    top: 500px;
+    display: flex;
+    justify-content: center;
+}
+.banner-square
+{
+    width: 50px;
+    height: 50px;
+    border-width:0px;
+    position: absolute;
+    top: 23px;
+    transform: rotate(45deg);
+    animation: squareing 4s linear ;
+    background-color:rgba(246, 183, 7, 1);
+}
+.banner-square>img
+{
+    width: 50px;
+    height: 50px;
+    transform: rotate(320deg);
+}
+
+@keyframes squareing{  
+    from{  
+      transform:rotate(0deg);  
+    }  
+    to{  
+      transform:rotate(360deg);  
+    }  
+  }
+.footer
+{
+    width: 100%;
+    height: 200px;
+    background-color: #535353;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /*position: fixed;*/
+    /*bottom: 0;*/
+}
+.footer>img
+{
+    width: 200px;
+    height: 200px;
+}
+.signinWay ul li .signinTypeBar{
+    display: inline-block;
+    color: black;
+}
+.loginul
+{
+    list-style: none;
+    width: 90%;
+    padding-left: 0;
+    text-align: center;
+}
+.loginli
+{
+    color: #dddddd;
+    float: left;
+    width: 50%;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.loginli>a
+{
+    color: #bbbbbb;
+}
+.loginli:nth-child(1)
+{
+    border-right: 1px solid #bfbfbf;
+}
+.g-pb-3:hover,.g-pb-3:active
+{
+    color: #BBBBBB;
+}
+.form-style
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.input
+{
+    height: 40px;
+    border:1px solid #ccc;
+    border-radius:1px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    font-size: 16px;
+    background-color: #fff;
+}
+.inputwidth
+{
+    width: 81%;
+}
+.form-login
+{
+    display:block;
+    width:81%!important;
+    height: 36px;
+    margin-bottom: 15px;
+    border-radius:3px;
+    color: white;
+    background: rgba(246, 183, 7, 1);
+    border:1px solid rgba(246, 183, 7, 1);
+    box-shadow: 0 0 5px rgba(246, 183, 7, 1);
+}
+.form-login,.form-login:hover,.form-login:active
+{
+    color: white!important;
+}
+.form-control-error
+{
+    width:81%!important;
+    height: auto;
+}
+.form-control-phone
+{
+    display:block;
+    width:81%!important;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius:1px;
+    border: 1px solid #bbbbbb
+}
+.form-control-email
+{
+    width:81%!important;
+    display:block;
+    height: 40px!important;
+    margin-bottom: 15px;
+    border-radius:1px;
+    border: 1px solid #bbbbbb;
+}
+.checkbox-margin
+{
+    margin-bottom: 5px;
+    color: gray;
+}
+.checkbox-width
+{
+    width: 16px;
+    height: 16px;
+}
+.form-register
+{
+    display:block;
+    width:95%!important;
+    height: 36px;
+    margin-bottom: 15px;
+    border-radius:3px;
+    color: white;
+    background: rgba(246, 183, 7, 1);
+    border:1px solid rgba(246, 183, 7, 1);
+    box-shadow: 0 0 5px rgba(246, 183, 7, 1);
+}
+.form-register:hover,.form-register:active,.form-login:hover,.form-login:active
+{
+    color: #ffffff!important;
+    background: rgba(246, 183, 7, 1);
+    border:1px solid rgba(246, 183, 7, 1);
+    box-shadow: 0 0 5px rgba(246, 183, 7, 1)
+}
+.form-style-test
+{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.form-test
+{
+    display:block;
+    width:70%!important;
+    height: 36px;
+    margin-bottom: 15px;
+    border-radius:1px;
+    border:1px solid #ccc;
+    padding: 10px;
+    margin-right: 20px;
+}
+.form-test .help-block
+{
+    display: none!important;
+}
+.help-block
+{
+    width: 20%!important;
+    margin-top:10px!important;
+}
+.send-testcode
+{
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgba(246, 183, 7, 1);
+}
+.time-color
+{
+    color: #BDBEBD;
+    transition: color 2s;
+}
+/* 基金发行服务 */
+.fund
+{
+    width: 100%;
+    height: 100%;
+}
+.fund-banner
+{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 439px;
+    background-image: url('../../public/img/fund_bgi.png');
+}
+.fund-bgc
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-content: center!important;
+}
+.fund-content
+{
+    width: 290px;
+    height: 200px;
+    margin-top: 150px;
+}
+.fund-title>h1
+{
+    font-family: 'MicrosoftYaHei-Bold', 'Microsoft YaHei Bold', 'Microsoft YaHei';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.fund-title>hr
+{
+  width: 40%;
+  height:4px;
+  margin: 20px auto;
+  border-width:0px;
+  border: none;
+  background-color: rgba(246, 183, 7, 1)!important;
+  
+}
+.fund-title>h2
+{
+    font-family: 'Microsoft YaHei UI';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.fund-what-content>h1
+{
+    font-family: 'MicrosoftYaHei-Bold', 'Microsoft YaHei Bold', 'Microsoft YaHei';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #0D0D0D;
+}
+.fund-what-content>hr
+{
+    border-width: 0px;
+    width: 7%;
+    margin: 10px auto 25px auto!important;
+    height: 6px;
+    background-color: rgba(246, 183, 7, 1);
+    border: none;
+}
+.fund-what-content>h2
+{
+    font-family: 'Microsoft YaHei UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #666666;
+}
+.fa-bz-1
+{
+    margin: 30px 0;
+    padding:0 40px;
+}
+.fa-bz-1>div>img
+{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+.fa-bz-1>div>h1{display: inline-block;position: relative;top: -10px;left:10px;color: #F6B707;}
+
+
+.fa-bz-1 .num-title
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(246, 183, 7, 1);
+    color: white;
+    margin: 20px auto;
+}
+.fa-bz-1>img
+{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: -60px;
+    top: -110px;
+}
+.fund-help-bgc
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 250, 250, 1);
+}
+.fa-help-bz
+{
+    width: 100%;
+    height: 210px;
+    margin-bottom: 20px;
+    
+}
+.fa-bz-2
+{
+    height: 153px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(228, 228, 228, 1);
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.fa-bz-2>div>h1{display: inline-block;position: relative;top: -10px;left:10px;color: #F6B707;font-size: 14px;margin: 10px auto;}
+.fa-bz-2 .num-title
+{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(246, 183, 7, 1);
+    color: white;
+    margin: 0px auto;
+    position: relative;
+    top: -20px;
+    transform: rotate(45deg);
+}
+.fa-bz-2 .num-rotate
+{
+    transform: rotate(315deg);
+    font-weight: 700;
+}
+.fa-bz-2 .num-info
+{
+    font-family: 'Microsoft YaHei UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #666666;
+    line-height: 20px;
+}
+.fund-other-factory
+{
+    padding-bottom: 50px;
+}
+
+.fa-bz-3>div>h2{display: inline-block;color: #F6B707;font-size: 16px;margin: 5px auto;}
+.fa-bz-3>div>hr
+{
+    width: 30px;
+    height: 6px;
+    background-color: rgba(246, 183, 7, 1);
+    border-width: 0px;
+    margin: 10px auto 20px auto!important;
+    border: none;
+}
+.fa-bz-3 .num-info
+{
+    padding: 0 30px;
+    font-size: 13px;
+    color: #333333;
+}
+
+.fa-bz-4>h2
+{
+    background-color: rgba(228, 228, 228, 1);
+    color:#6B6B6B ;
+    border-radius:8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.fa-bz-4>p
+{
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+    line-height: 20px;
+}
+.danger-tip
+{
+    color: #FF485A;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+.Issuing-fund,.Issuing-fund:hover,.Issuing-fund:active,.Issuing-fund:focus
+{
+    display:block;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    border-radius:3px;
+    color: white;
+    background: rgba(246, 183, 7, 1);
+    border:1px solid rgba(246, 183, 7, 1);
+    box-shadow: 0 0 5px rgba(246, 183, 7, 1);
+}
+/*申请表单*/
+.form-banner
+{
+    width: 100%;
+    height: 160px;
+    background-color: rgba(51, 51, 51, 1);
+}
+.form-banner>div>h1
+{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #F6B707;
+}
+.form-banner>div>hr
+{
+    width: 50px;
+    height: 2px;
+    background: inherit;
+    background-color: rgba(246, 183, 7, 1);
+    border: none;
+    margin: 20px auto!important;
+}
+.form-banner>div>p
+{
+    color: #868686;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+}
+.ant-radio-wrapper
+{
+    font-size: 14px!important;
+}
+.base-info
+{
+    background-color: rgba(250, 250, 250, 1);
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px rgba(201, 201, 201, 1);
+    display: block;
+}
+.base-info>h2
+{
+    color: #333333;
+    font-size:16px ;
+}
+.base-info>ul>li>span
+{
+    font-size: 14px;
+    color: #6B6B6B;
+    font-weight: 400;
+    font-style: normal;
+}
+.base-info>ul>li>input
+{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+.input-radio>h1
+{
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    margin: 20px 0 10px 0;
+}
+.input-radio>span
+{
+    font-size: 14px;
+    color: #515151;
+}
+.my-fund
+{
+    background-color: rgba(250, 250, 250, 1);
+    padding-top: 30px;
+    min-height: 600px;
+}
+.my-fund-bgc
+{
+    background-color: #fff;
+    padding:0!important;
+    /*padding-bottom: 150px !important;*/
+}
+.my-fund-item-line
+{
+    position: absolute;
+    display: inline-block;
+    width: 83%;
+    height: 1px;
+    background-color: gainsboro;
+    top: 24px;
+}
+.strate-all-content-item:hover
+{
+    transform:translateX(-30px);
+    transition: transform 0.35s ease;
+}
+.fund-rotate:hover
+{
+    transform:translateY(-30px);
+    transition: transform 0.35s ease;
+}
+.my-fund-border
+{
+    border-left: 1px solid #D7D7D7;
+    height: 160px;
+}
+.my-fund-echart>li>a
+{
+    font-size: 14px;
+    color: black;
+}
+.my-fund-echart>li>a:hover,.my-fund-echart>li>a:active,.my-fund-echart>li>a:focus
+{
+    color: #F6B707;
+    border-bottom: 1px solid #F6B707;
+    padding-bottom: 5px;
+}
+/*基金详情*/
+.fund-details-banner
+{
+    height: 400px;
+    width: 100%;
+    background: radial-gradient(#525358,#212123);
+    /*background: rgba(0,0,0, 0.4);*/
+}
+.fund-b-border
+{
+    border-bottom: 1px solid #D7D7D7;
+    margin:0 auto;
+}
+.fund-share
+{
+    font-size: 16px;
+    font-weight:700;
+    color: white;
+}
+.fund-detail-rengou,.fund-detail-rengou:hover,.fund-detail-rengou:active,.fund-detail-rengou:focus
+{
+    background-color: rgba(246, 183, 7, 1);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(246, 183, 7, 1);
+    font-size: 15px;
+    color: white;
+}
+.fund-banner-list
+{
+    /*background-color: rgba(0, 0, 0, 1);*/
+    width: 100%;
+    height: 600px;
+    /*background-image: url('../../public/img/fund_bgi.png');*/
+}
+.fund-banner-title
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+.title-border-left
+{
+    position: relative;
+    top:150px;
+    left:200px;
+    height: 120px;
+    border-left: 12px solid rgba(246, 183, 7, 1);
+    display: inline-block;
+    z-index: -1;
+}
+.title-border-left>h2,.title-border-right>h2
+{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: left;
+}
+.title-border-left>h1,.title-border-right>h1
+{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    color: #F6B707;
+    text-align: left;
+    display: inline-block;
+}
+.title-border-left>span,.title-border-right>span
+{
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    text-align: left;
+}
+.title-border-right
+{
+    position: relative;
+    top:150px;
+    left:60px;
+    height: 120px;
+    border-right: 12px solid rgba(246, 183, 7, 1);
+    display: inline-block;
+}
+.official-btn
+{
+    height: 50px;
+    position: relative;
+    top:300px;
+    left: -80px;
+}
+.official-btn>span
+{
+    font-size: 14px;
+    color: white;
+    border-radius: 10px;
+}
+.official-btn>span:nth-child(1)
+{
+    background-color: rgba(246, 183, 7, 1);
+}
+.official-btn>span:nth-child(2)
+{
+    background-color: rgba(94, 94, 94, 1);
+}
+.official-btn-right
+{
+    left: -200px;
+}
+.official-btn-right>span:nth-child(1)
+{
+    background-color: rgba(94, 94, 94, 1);
+}
+.official-btn-right>span:nth-child(2)
+{
+    background-color: rgba(246, 183, 7, 1);
+}
+.earning-figure-fund .active
+{
+    border-bottom: 1px solid rgba(246, 183, 7, 1);
+}
+.shouyi-time
+{
+    font-size: 14px;
+    cursor: pointer;
+}
+.user-fund-all>a .active .hover
+{
+    border-bottom: 1px solid rgba(246, 183, 7, 1);
+}
+.fund-list-bgc1:hover,.fund-list-bgc2:hover
+{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.fund-list-bgc1
+{
+    /*background-image: url('../../public/img/left_u750.png');*/
+    /*position: relative;*/
+    /*top:-70px;*/
+    /*left:70px;*/
+    display: inline-block;
+    -webkit-background-size: 100% 100%;
+    /*background-size:100%;*/
+}
+.fund-list-bgc2
+{
+    /*background-image: url('../../public/img/right_u746.png');*/
+    position: relative;
+    top:-850px;
+    left:750px;
+    display: inline-block;
+    -webkit-background-size: 100% 100%;
+    /*background-size: 100%;*/
+}
+.fund-detail-share
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #444444;
+    padding-top: 5px;
+    margin-right: 5px;
+}
+.fund-list-banner-left {
+    position: absolute;
+    z-index: -3;
+    width: 120%;
+    height: 120%;
+    margin-left: 0%;
+}
+.fund-list-banner-right {
+    position: absolute;
+    z-index: -3;
+    width: 120%;
+    height: 120%;
+    margin-left: -18%;
+}
